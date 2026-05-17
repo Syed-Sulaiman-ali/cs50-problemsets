@@ -12,7 +12,7 @@ int main(void)
     do
     {
         n = get_int("Height: ");
-    } while (n < 1);
+    } while (n < 1 || n >= 8);
 
     // this outer loops is for printing rows
     for (int row = 1; row <= n; row++)
